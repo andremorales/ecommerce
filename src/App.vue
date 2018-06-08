@@ -1,6 +1,9 @@
 <template>
   <div class="phone-viewreport">
     <md-toolbar>
+    <md-button class="md-icon button">
+
+  </md-button>  
       <h1 class="mb-title">{{title}}</h1>
     </md-toolbar>
   </div>
@@ -11,9 +14,8 @@ export default {
   name: "App",
   data() {
     return {
-     title : 'Ecommerce'
-
-    }
+      title: "Ecommerce"
+    };
   }
 };
 </script>
