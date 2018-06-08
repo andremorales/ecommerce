@@ -1,10 +1,11 @@
 <template>
   <div class="phone-viewreport">
     <md-toolbar>
-    <md-button class="md-icon button">
+    <md-button class="md-icon button" v-on:click="">
+      <md-icon>menu</md-icon>
+    </md-button>  
 
-  </md-button>  
-      <h1 class="mb-title">{{title}}</h1>
+      <h1 class="mb-title right">{{title}}</h1>
     </md-toolbar>
   </div>
 </template>
@@ -21,12 +22,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
